@@ -32,10 +32,23 @@ body {
   overflow: hidden;
 }
 
+@media (max-width: 420px) {
+  .slider__nav-container {
+    flex-direction: column-reverse;
+  }
+}
+
 .slider__titles {
   display: flex;
   flex-direction: column;
   width: 500%;
+}
+
+@media (max-width: 420px) {
+  .slider__titles {
+    margin-top: 20px;
+    font-size: 0.5rem;
+  }
 }
 
 .slider__title {
