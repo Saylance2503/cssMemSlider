@@ -26,6 +26,22 @@ body {
   height: auto;
 }
 
+.slider__nav-container {
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+}
+
+.slider__titles {
+  display: flex;
+  flex-direction: column;
+  width: 500%;
+}
+
+.slider__title {
+  width: 80%;
+}
+
 .slider__nav {
   display: flex;
   justify-content: center;
