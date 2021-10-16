@@ -4,14 +4,20 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>cssMemSlider</title>
   </head>
   <body>
     <div class="wrapper">
       <div class="slider">
-        <div class="slider__nav"></div>
         <div class="slider__items">
-          <div class="item">
+          <input type="radio" name="s" id="s1" />
+          <input type="radio" name="s" id="s2" />
+          <input type="radio" name="s" id="s3" />
+          <input type="radio" name="s" id="s4" />
+          <input type="radio" name="s" id="s5" />
+
+          <div class="item s1">
             <img src="./img/1.jpg" alt="1" />
           </div>
           <div class="item">
@@ -27,6 +33,13 @@
             <img src="./img/5.jpg" alt="5" />
           </div>
         </div>
+      </div>
+      <div class="slider__nav">
+        <label for="s1" class="slider__nav-item activ"></label>
+        <label for="s2" class="slider__nav-item"></label>
+        <label for="s3" class="slider__nav-item"></label>
+        <label for="s4" class="slider__nav-item"></label>
+        <label for="s5" class="slider__nav-item"></label>
       </div>
     </div>
   </body>
